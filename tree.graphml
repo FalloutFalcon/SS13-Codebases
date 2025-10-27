@@ -104,12 +104,6 @@
 					</yjs:Arrow>
 				</yjs:PolylineEdgeStyle.sourceArrow>
 			</yjs:PolylineEdgeStyle>
-			<yjs:Stroke x:Key="56" fill="WHITE"/>
-			<yjs:Arrow x:Key="57" type="NONE">
-				<yjs:Arrow.stroke>
-					<yjs:Stroke fill="WHITE" lineCap="SQUARE"/>
-				</yjs:Arrow.stroke>
-			</yjs:Arrow>
 		</y:SharedData>
 	</data>
 	<graph id="G" edgedefault="directed">
@@ -6847,7 +6841,7 @@
 									<yx:FreeEdgeLabelModelParameter Ratio="0.4866312960143025" Distance="7.001000000000057" Angle="2.1944241353528096" Model="{y:GraphMLReference 29}"/>
 								</y:Label.LayoutParameter>
 								<y:Label.Style>
-									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="CLIP" font="{y:GraphMLReference 2}" textFill="WHITE"/>
+									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="CLIP" font="{y:GraphMLReference 2}"/>
 								</y:Label.Style>
 							</y:Label>
 						</x:List>
@@ -6890,7 +6884,7 @@
 									<yx:FreeEdgeLabelModelParameter Ratio="0.4899872940552324" Distance="-7.001000000000173" Angle="0.8403784782818928" Model="{y:GraphMLReference 29}"/>
 								</y:Label.LayoutParameter>
 								<y:Label.Style>
-									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="CLIP" font="{y:GraphMLReference 2}" textFill="WHITE"/>
+									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="CLIP" font="{y:GraphMLReference 2}"/>
 								</y:Label.Style>
 							</y:Label>
 						</x:List>
@@ -7238,22 +7232,17 @@
 						</yjs:PolylineEdgeStyle>
 					</data>
 				</edge>
-				<edge id="n0::e134" source="n0::n150" target="n0::n150" sourceport="p46" targetport="p47">
-					<data key="d13">
-						<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 56}" targetArrow="{y:GraphMLReference 16}" sourceArrow="{y:GraphMLReference 57}"/>
-					</data>
-				</edge>
-				<edge id="n0::e135" source="n0::n150" target="n0::n156" sourceport="p48" targetport="p0">
+				<edge id="n0::e134" source="n0::n150" target="n0::n156" sourceport="p48" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="32"/>
 					</data>
 				</edge>
-				<edge id="n0::e136" source="n0::n156" target="n0::n157" sourceport="p1" targetport="p0">
+				<edge id="n0::e135" source="n0::n156" target="n0::n157" sourceport="p1" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="32"/>
 					</data>
 				</edge>
-				<edge id="n0::e137" source="n0::n92" target="n0::n158" sourceport="p3" targetport="p3">
+				<edge id="n0::e136" source="n0::n92" target="n0::n158" sourceport="p3" targetport="p3">
 					<data key="d13">
 						<yjs:PolylineEdgeStyle stroke="#FFFF0000">
 							<yjs:PolylineEdgeStyle.targetArrow>
@@ -7269,12 +7258,12 @@
 						</yjs:PolylineEdgeStyle>
 					</data>
 				</edge>
-				<edge id="n0::e138" source="n0::n156" target="n0::n158" sourceport="p2" targetport="p4">
+				<edge id="n0::e137" source="n0::n156" target="n0::n158" sourceport="p2" targetport="p4">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="32"/>
 					</data>
 				</edge>
-				<edge id="n0::e139" source="n0::n89" target="n0::n156" sourceport="p12" targetport="p3">
+				<edge id="n0::e138" source="n0::n89" target="n0::n156" sourceport="p12" targetport="p3">
 					<data key="d13">
 						<yjs:PolylineEdgeStyle stroke="#FFFF0000">
 							<yjs:PolylineEdgeStyle.targetArrow>
@@ -7290,12 +7279,12 @@
 						</yjs:PolylineEdgeStyle>
 					</data>
 				</edge>
-				<edge id="n0::e140" source="n0::n69" target="n0::n159" sourceport="p4" targetport="p0">
+				<edge id="n0::e139" source="n0::n69" target="n0::n159" sourceport="p4" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="32"/>
 					</data>
 				</edge>
-				<edge id="n0::e141" source="n0::n160" target="n0::n157" sourceport="p1" targetport="p1">
+				<edge id="n0::e140" source="n0::n160" target="n0::n157" sourceport="p1" targetport="p1">
 					<data key="d12">
 						<x:List>
 							<y:Bend Location="1002.75,1674"/>
@@ -7316,12 +7305,12 @@
 						</yjs:PolylineEdgeStyle>
 					</data>
 				</edge>
-				<edge id="n0::e142" source="n0::n96" target="n0::n161" sourceport="p2" targetport="p0">
+				<edge id="n0::e141" source="n0::n96" target="n0::n161" sourceport="p2" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="32"/>
 					</data>
 				</edge>
-				<edge id="n0::e143" source="n0::n161" target="n0::n162" sourceport="p1" targetport="p0">
+				<edge id="n0::e142" source="n0::n161" target="n0::n162" sourceport="p1" targetport="p0">
 					<data key="d13">
 						<yjs:PolylineEdgeStyle stroke="#FFFF0000">
 							<yjs:PolylineEdgeStyle.targetArrow>
@@ -7337,27 +7326,27 @@
 						</yjs:PolylineEdgeStyle>
 					</data>
 				</edge>
-				<edge id="n0::e144" source="n0::n164" target="n0::n165" sourceport="p0" targetport="p0">
+				<edge id="n0::e143" source="n0::n164" target="n0::n165" sourceport="p0" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="33"/>
 					</data>
 				</edge>
-				<edge id="n0::e145" source="n0::n163" target="n0::n164" sourceport="p0" targetport="p1">
+				<edge id="n0::e144" source="n0::n163" target="n0::n164" sourceport="p0" targetport="p1">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="33"/>
 					</data>
 				</edge>
-				<edge id="n0::e146" source="n0::n165" target="n0::n166" sourceport="p1" targetport="p0">
+				<edge id="n0::e145" source="n0::n165" target="n0::n166" sourceport="p1" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="33"/>
 					</data>
 				</edge>
-				<edge id="n0::e147" source="n0::n150" target="n0::n163" sourceport="p50" targetport="p1">
+				<edge id="n0::e146" source="n0::n150" target="n0::n163" sourceport="p50" targetport="p1">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="33"/>
 					</data>
 				</edge>
-				<edge id="n0::e148" source="n0::n150" target="n0::n168" sourceport="p51" targetport="p1">
+				<edge id="n0::e147" source="n0::n150" target="n0::n168" sourceport="p51" targetport="p1">
 					<data key="d12">
 						<x:List>
 							<y:Bend Location="1702.125,1498.5"/>
@@ -7367,47 +7356,47 @@
 						<y:GraphMLReference ResourceKey="33"/>
 					</data>
 				</edge>
-				<edge id="n0::e149" source="n0::n164" target="n0::n167" sourceport="p2" targetport="p0">
+				<edge id="n0::e148" source="n0::n164" target="n0::n167" sourceport="p2" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="33"/>
 					</data>
 				</edge>
-				<edge id="n0::e150" source="n0::n168" target="n0::n171" sourceport="p2" targetport="p0">
+				<edge id="n0::e149" source="n0::n168" target="n0::n171" sourceport="p2" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="33"/>
 					</data>
 				</edge>
-				<edge id="n0::e151" source="n0::n168" target="n0::n169" sourceport="p3" targetport="p0">
+				<edge id="n0::e150" source="n0::n168" target="n0::n169" sourceport="p3" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="33"/>
 					</data>
 				</edge>
-				<edge id="n0::e152" source="n0::n168" target="n0::n170" sourceport="p4" targetport="p0">
+				<edge id="n0::e151" source="n0::n168" target="n0::n170" sourceport="p4" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="33"/>
 					</data>
 				</edge>
-				<edge id="n0::e153" source="n0::n167" target="n0::n171" sourceport="p1" targetport="p1">
+				<edge id="n0::e152" source="n0::n167" target="n0::n171" sourceport="p1" targetport="p1">
 					<data key="d13">
 						<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 34}" targetArrow="{y:GraphMLReference 35}" sourceArrow="{y:GraphMLReference 36}"/>
 					</data>
 				</edge>
-				<edge id="n0::e154" source="n0::n165" target="n0::n169" sourceport="p2" targetport="p1">
+				<edge id="n0::e153" source="n0::n165" target="n0::n169" sourceport="p2" targetport="p1">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="37"/>
 					</data>
 				</edge>
-				<edge id="n0::e155" source="n0::n166" target="n0::n170" sourceport="p1" targetport="p1">
+				<edge id="n0::e154" source="n0::n166" target="n0::n170" sourceport="p1" targetport="p1">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="37"/>
 					</data>
 				</edge>
-				<edge id="n0::e156" source="n0::n163" target="n0::n172" sourceport="p2" targetport="p0">
+				<edge id="n0::e155" source="n0::n163" target="n0::n172" sourceport="p2" targetport="p0">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="37"/>
 					</data>
 				</edge>
-				<edge id="n0::e157" source="n0::n164" target="n0::n172" sourceport="p3" targetport="p1">
+				<edge id="n0::e156" source="n0::n164" target="n0::n172" sourceport="p3" targetport="p1">
 					<data key="d13">
 						<y:GraphMLReference ResourceKey="33"/>
 					</data>
@@ -8662,7 +8651,15 @@
 		</edge>
 		<edge id="e33" source="n1" target="n0::n155" sourceport="p36" targetport="p2">
 			<data key="d13">
-				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 56}" targetArrow="{y:GraphMLReference 16}" sourceArrow="{y:GraphMLReference 57}"/>
+				<yjs:PolylineEdgeStyle stroke="#FFFFFFFF" targetArrow="{y:GraphMLReference 16}">
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="NONE">
+							<yjs:Arrow.stroke>
+								<yjs:Stroke fill="WHITE" lineCap="SQUARE"/>
+							</yjs:Arrow.stroke>
+						</yjs:Arrow>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
 			</data>
 		</edge>
 		<edge id="e34" source="n2" target="n0::n160" sourceport="p43" targetport="p2">
